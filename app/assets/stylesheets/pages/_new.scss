@@ -92,23 +92,12 @@
 
 // PAGE
 
-body {
-  margin: 0;
-  padding: 0;
-}
 .column {
   height: 100%;
 }
 
-.page {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin-top: 5%;
-}
-
 .title-text-contact {
-  background: white;
+  // background: white;
   padding: 3%;
   width: 30%;
 }
@@ -149,4 +138,30 @@ body {
   .column {
     width: 100%;
   }
+}
+
+// COLOUR
+
+.pink {
+  background-color: #F9E0EC;
+}
+
+.blue {
+  background-color: #E6F3F9;
+}
+
+.yellow {
+  background-color: #F3F9E6;
+}
+
+.peach {
+  background-color: #FFE6E6;
+}
+
+.beige {
+  background-color: #F3ECEC;
+}
+
+.bright-pink-logo {
+  color: #FF6666;
 }
