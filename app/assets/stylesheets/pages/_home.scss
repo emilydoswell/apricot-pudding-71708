@@ -2,9 +2,13 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-.container {
-  text-align: center;
+
+.page {
   margin: 1%;
+}
+
+.header {
+  text-align: center;
 }
 
 h1, h2, h3 {
