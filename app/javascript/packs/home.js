@@ -8,20 +8,20 @@ anime.timeline({loop: true})
     opacity: [0,1],
     translateZ: 0,
     easing: "easeOutExpo",
-    duration: 600,
+    duration: 1200,
     delay: (el, i) => 70 * (i+1)
   }).add({
     targets: '.ml1 .line',
     scaleX: [0,1],
     opacity: [0.5,1],
     easing: "easeOutExpo",
-    duration: 700,
+    duration: 1400,
     offset: '-=875',
     delay: (el, i, l) => 80 * (l - i)
   }).add({
     targets: '.ml1',
     opacity: 0,
-    duration: 1000,
+    duration: 800,
     easing: "easeOutExpo",
     delay: 1000
   });
