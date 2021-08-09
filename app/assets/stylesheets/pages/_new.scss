@@ -167,9 +167,12 @@
 
 // SOCIAL ICONS
 .social-icons {
-  color: black;
-  width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 50%;
+}
+
+.fab {
+  color: black;
 }
