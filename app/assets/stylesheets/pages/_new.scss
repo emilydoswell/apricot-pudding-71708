@@ -168,12 +168,10 @@
 // SOCIAL ICONS
 .social-icons {
   display: flex;
-  justify-content: space-around;
+  // justify-content: space-around;
   align-items: center;
-  width: 50%;
+  font-size: 2vw;
 }
 
 .fab {
-  color: black;
-  font-size: 3vw;
 }
