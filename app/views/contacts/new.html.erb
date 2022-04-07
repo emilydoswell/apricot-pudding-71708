@@ -5,15 +5,27 @@
       <p class="hero__subtitle">Get in touch.</p>
     </div>
     <div class="col-sm-12 col-md-6 col-lg-6 contact-us column">
-      <form class="form" action="https://formspree.io/f/xaylazjw" method="POST">
+      <%# <form class="form" action="https://formspree.io/f/xaylazjw" method="POST">
         <input type="hidden" name="id" value="123456">
         <input class="form-group__input pink" type="text" name="first-name" placeholder="First Name" class="form-float" required>
         <input class="form-group__input pink" type="text" name=";ast-name" placeholder="Last Name" required>
         <input class="form-group__input pink" type="email" name="email" placeholder="Email" required> 
         <input class="form-group__input pink" type="text" name="telephone" placeholder="Telephone" pattern="((\+|00)?[1-9]{2}|0)[1-9]([0-9]){9}" required>
         <input class="form-group__input pink" type="text" name="message" placeholder="Message" required>
+      </form> %>
+      <%# <button class="btn pink">Send</button> %>
+      <form action="https://formspree.io/f/mlezwadr" method="POST">
+        <label>
+          Your Email Address:
+          <input type="email" name="email">
+        </label>
+        <label>
+          Input your Message:
+          <textarea name="message" rows="3"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
       </form>
-      <button class="btn pink">Send</button>
     </div>
   </div>
   <div class="social-icons">
