@@ -97,7 +97,7 @@
 
 .title-text-contact {
   // background: white;
-  padding: 3%;
+  padding: 8%;
   width: 30%;
 }
 
@@ -117,7 +117,7 @@
 }
 
 .contact-us {
-  padding: 3%;
+  padding: 8%;
   width: 35%;
   overflow:auto;
 }
@@ -168,9 +168,9 @@
 // SOCIAL ICONS
 .social-icons {
   display: flex;
-  // justify-content: space-around;
+  justify-content: space-around;
   align-items: center;
-  font-size: 2vw;
+  font-size: 32px;
 }
 
 .fab {
