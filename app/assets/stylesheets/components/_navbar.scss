@@ -4,7 +4,6 @@
   flex-grow: 0;
   color: black;
   text-decoration: none;
-  margin: 1%;
   text-align: center;
 }
 
@@ -12,7 +11,6 @@
   color: black;
   text-decoration: none;
   font-size: 20px;
-  padding: 1%;
 }
 
 .title-nav:hover {
@@ -37,4 +35,26 @@
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+@media (max-width: 2000px) {
+  .navigation {
+    margin: 1%;
+  }
+  .title-nav {
+    padding: 1%;
+  }
+}
+
+@media (max-width: 900px) {
+  .navigation{
+    margin: 3%;
+  }
+  .title-nav {
+    padding: 3%;
+  }
+}
+
+@media (max-width: 500px) {
+
 }
