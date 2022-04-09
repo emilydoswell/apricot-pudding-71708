@@ -62,7 +62,7 @@ button:hover {
 } 
 
 @media (max-width: 2000px) {
-  
+
 }
 
 @media (max-width: 900px) {
@@ -74,5 +74,9 @@ button:hover {
 @media (max-width: 500px) {
   .home-header {
     margin-top: 30vh;
+  }
+
+  .body {
+    background-color: #F8BAC7;
   }
 }
