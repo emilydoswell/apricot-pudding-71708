@@ -1,6 +1,4 @@
-.h1-header {
-  font-size: 32px;
-}
+
 
 .project-link {
   text-decoration: none;
@@ -34,18 +32,19 @@
 
 /* [3] Finally, transforming the image when container gets hovered */
 .img-hover-zoom:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
-// .container-project {
-//   display: grid;
-//   grid-template-columns: 1fr 1fr;
-//   grid-gap: 16px;
-// }
+.container-project {
+  background-color: #F8BAC7 !important;
+  background-image: none !important;
+}
 
 img {
   max-width: 100%;
   height: auto;
+  border: 1px solid;
+  padding: 0.3em;
 }
 
 @media(max-width: 2000px) {
@@ -55,13 +54,18 @@ img {
     grid-gap: 64px;
     margin-right: 8em;
     margin-left: 8em;
+  
   }
 }
 
 
-@media(max-width: 900px) {
+@media(max-width: 1000px) {
   .container-project {
-
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    margin-right: 2em;
+    margin-left: 2em;
   }
 }
 
