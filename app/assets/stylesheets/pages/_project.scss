@@ -6,7 +6,7 @@
   text-decoration: none;
   color: black;
   margin: 1%;
-  text-align: center;
+  // text-align: center;
 }
 
 .project-link:hover {
@@ -23,7 +23,7 @@
 }
 
 .img-hover-zoom {
-  height: 150px; /* [1.1] Set it as per your need */
+  // height: 150px; /* [1.1] Set it as per your need */
   overflow: hidden; /* [1.2] Hide the overflowing of child elements */
 }
 
@@ -37,10 +37,32 @@
   transform: scale(1.2);
 }
 
-.container-project {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 16px;
+// .container-project {
+//   display: grid;
+//   grid-template-columns: 1fr 1fr;
+//   grid-gap: 16px;
+// }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media(max-width: 2000px) {
+  .container-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 64px;
+    margin-right: 8em;
+    margin-left: 8em;
+  }
+}
+
+
+@media(max-width: 900px) {
+  .container-project {
+
+  }
 }
 
 @media(max-width: 500px) {
