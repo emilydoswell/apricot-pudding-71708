@@ -1,10 +1,12 @@
-
+.project-page {
+  background-color: #F8BAC7 !important;
+  background-image: none !important;
+}
 
 .project-link {
   text-decoration: none;
   color: black;
   margin: 1%;
-  // text-align: center;
 }
 
 .project-link:hover {
@@ -35,11 +37,6 @@
   transform: scale(1.1);
 }
 
-.container-project {
-  background-color: #F8BAC7 !important;
-  background-image: none !important;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -54,7 +51,6 @@ img {
     grid-gap: 64px;
     margin-right: 8em;
     margin-left: 8em;
-  
   }
 }
 
