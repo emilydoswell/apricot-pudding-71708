@@ -42,3 +42,13 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
 }
+
+@media(max-width: 500px) {
+  .container-project {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    margin: 5%;
+  }
+}
+
