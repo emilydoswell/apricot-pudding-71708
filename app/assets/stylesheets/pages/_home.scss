@@ -18,12 +18,13 @@ body {
 
 .header {
   text-align: center;
-  margin: 3%;
+  // margin: 3%;
 }
 
 .home-header {
-  margin-top: 20%;
+  // margin-top: 20%;
 }
+
 .home-header-name {
   font-size: 6vw;
 }
@@ -60,8 +61,14 @@ button:hover {
   border: 1px solid black;
 } 
 
-// @media (min-width: 900px) {
-//   page {
-//     margin: 50%;
-//   }
-// }
+@media (max-width: 900px) {
+  .home-header {
+    margin-top: 45vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .home-header {
+    margin-top: 30vh;
+  }
+}
